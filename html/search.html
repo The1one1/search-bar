@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Search bar</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\ratan\Desktop\Final-Project\style\search_bar.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search_box">
+            <form enctype="multipart/form-data" method="get">
+                <label for="search-input">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </label>
+                <input id="search-input" type="text" name="search" placeholder="Search...">
+                <label for="image-upload">
+                    <button type="button"><i class="fa fa-upload"></i></button>
+                </label>
+                <input id="image-upload" type="file" name="myImage" style="display:none;">
+            </form>
+        </div>
+    </div>
+
+    <script src="C:\Users\ratan\Desktop\Final-Project\script\input.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Search bar</title>
+    <style>
+        body {
+            background-color: #2E4053;
+        }
+
+        .container {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        .search_box {
+            border-radius: 40px;
+            background-color: white;
+        }
+
+        form {
+            margin: 0;
+        }
+
+        input {
+            border: none;
+            margin: 15px 10px 15px 5px;
+            font-size: 20px;
+            outline: none;
+            color: #17202A;
+        }
+
+        .search_box button i {
+            font-size: 20px;
+            margin: 0px 10px;
+            color: #0063D4;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search_box">
+            <form>
+                <label for="search-input">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </label>
+                <input id="search-input" type="text" name="search" placeholder="Search...">
+                <label for="image-upload">
+                    <button type="button"><i class="fa fa-upload"></i></button>
+                </label>
+                <input id="image-upload" type="file" name="myImage" style="display:none;">
+            </form>
+        </div>
+    </div>
+
+    <script>
+      const fileBtn = document.getElementById("image-upload");
+      const button = document.querySelector("button[type='button']");
+
+      button.addEventListener("click", function() {
+        fileBtn.click();
+      });
+    </script>
+</body>
+
+</html> -->

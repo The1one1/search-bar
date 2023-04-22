@@ -1,0 +1,39 @@
+body {
+  background-color: #2E4053;
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.search_box {
+  border-radius: 40px;
+  background-color: white;
+}
+
+form {
+  margin: 0;
+}
+
+input {
+  border: none;
+  margin: 15px 10px 15px 5px;
+  font-size: 20px;
+  outline: none;
+  color: #17202A;
+}
+
+.search_box button i {
+  font-size: 20px;
+  margin: 0px 10px;
+  color: #0063D4;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
